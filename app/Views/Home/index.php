@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>E-MUA</title>
+    <title>Sewa Alat Musik</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Google Fonts -->
@@ -23,7 +23,7 @@
     <script>
         function initialize() {
             var propertiPeta = {
-                center:new google.maps.LatLng(-0.23022233210732249,100.6320002729594),
+                center:new google.maps.LatLng(-0.9428183240257411, 100.35142022560365),
                 zoom:9,
                 mapTypeId:google.maps.MapTypeId.ROADMAP
             };
@@ -32,7 +32,7 @@
 
             // membuat Marker
             var marker=new google.maps.Marker({
-                position: new google.maps.LatLng(-0.23022233210732249,100.6320002729594),
+                position: new google.maps.LatLng(-0.9428183240257411, 100.35142022560365),
                 map: peta,
                 animation: google.maps.Animation.BOUNCE
             });
@@ -58,7 +58,7 @@
             <ul>
                 <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                 <li><a class="nav-link scrollto" href="#galeri">Galeri</a></li>
-                <li><a class="nav-link scrollto" href="#pricing">Paket MakeUp</a></li>
+                <li><a class="nav-link scrollto" href="#pricing">Paket Alat Musik</a></li>
                 <li><a class="nav-link scrollto" href="#map">Lokasi</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
@@ -68,8 +68,8 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
         <div class="hero-container">
-            <h1>Makeup by eby</h1>
-            <h2>"Menjadi Cantik di Setiap Momen Berharga!"</h2>
+            <h1>Shymphony Station Bahy</h1>
+            <h2>"Kembangkan Bakatmu Agar Dunia Mengenalmu"</h2>
             <a href="#pricing" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
         </div>
     </section><!-- End Hero -->
@@ -81,9 +81,9 @@
             <div class="container">
 
                 <div class="section-title">
-                    <span>Galeri Makeup</span>
-                    <h2>Galeri Makeup</h2>
-                    <p>Galeri MakeUp yang Ingin di Reserve</p>
+                    <span>Galeri Musik</span>
+                    <h2>Galeri Musik</h2>
+                    <p>Galeri Musik yang Ingin di Reserve</p>
                 </div>
 
                 <div class="row" style="justify-content: center;">
@@ -95,7 +95,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="box">
                                 <div class="gambar" style="height: 100%; width:100%; box-shadow: 0px 0px 4px rgb(0 0 0);">
-                                    <img src="/assets/fotoGaleri/<?= $g['foto_galeri']; ?>" alt="" style="width: 100%;height: 100%;object-fit: contain;">
+                                    <img src="/assets/fotoGaleri/<?= $g['foto_galeri']; ?>" alt="Foto Galeri" style="width: 100%;height: 100%;object-fit: contain;">
                                 </div>
                                 <h3><?= $g['nama_galeri']; ?></h3>
                                 <div class="desc">
@@ -113,9 +113,9 @@
             <div class="container">
 
                 <div class="section-title">
-                    <span>Paket MakeUp</span>
-                    <h2>Paket MakeUp</h2>
-                    <p>Pilihlah Paket MakeUp yang Ingin di Reserve</p>
+                    <span>Paket Alat Musik</span>
+                    <h2>Paket Alat Musik</h2>
+                    <p>Pilihlah Paket yang Ingin di Reserve</p>
                 </div>
 
                 <div class="row" style="justify-content: center;" >
@@ -128,7 +128,7 @@
                         <div class="col-lg-4 col-md-6" >
                             <div class="box" style="min-height: 750px">
                                 <div class="gambar" style="height: 100%; width:100%; box-shadow: 0px 0px 4px rgb(0 0 0);">
-                                    <img src="/assets/fotoMakeup/<?= $values['foto_paket_makeup']; ?>" alt="" style="width: 100%; height: 250px;object-fit: contain;">
+                                    <img src="/assets/fotomakeup/<?= $values['foto_paket_makeup']; ?>" alt="" style="width: 100%; height: 250px;object-fit: contain;">
                                 </div>
                                 <h3><?= $values['nama_paket_makeup']; ?></h3>
                                 <h4><sup>Rp</sup><?= $harga; ?></h4>
@@ -161,12 +161,12 @@
     </main>
     <footer id="footer" style="height: 20rem;" >
         <h4>About</h4>
-        <p>Kami adalah penyedia layanan makeup profesional yang berlokasi di Payakumbuh, siap membantu Anda tampil memukau di setiap kesempatan. Dengan pengalaman bertahun-tahun dan keahlian dalam berbagai teknik makeup, kami berkomitmen untuk memberikan pelayanan terbaik dan hasil yang memuaskan bagi setiap pelanggan.</p>
+        <p>Kami adalah penyedia layanan sewa alat musik terpercaya yang berlokasi di kota Padang, siap membantu Anda di setiap kesempatan. Dengan customer terbnyak bertahun-tahun dan kami berkomitmen untuk memberikan pelayanan terbaik dan hasil yang memuaskan bagi setiap pelanggan.</p>
 
         <h5>Contact Person</h5>
         <ul>
-            <li>Email  : Mua@gmail.com</li>
-            <li>No HP  : 085274728888</li>
+            <li>Email  : arifbahysefitra03@gmail.com</li>
+            <li>No HP  : 083133696684</li>
             <li>Kota   : <?= $cuaca['name'] ?></li>
         </ul>
 

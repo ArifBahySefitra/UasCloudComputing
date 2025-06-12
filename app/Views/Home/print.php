@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <h2 style="text-align: center;">Bukti Reservasi MakeUp. <br> Makeup By Eby <br> </h2>
+    <h2 style="text-align: center;">Bukti Sewa Alat Musik. <br> Shymphony Station Bahy <br> </h2>
     <div class="data-customer">
         <table>
             <tr>
@@ -37,14 +37,14 @@
                 <td><?= $transaksi['No_HP']; ?></td>
             </tr>
             <tr>
-                <td>Tanggal MakeUp</td>
+                <td>Tanggal Sewa</td>
                 <td>:</td>
                 <td><?= date('d F Y', strtotime($transaksi['tanggal_makeup'])); ?></td>
             </tr>
             <tr>
-                <td>Alamat MakeUp</td>
+                <td>Alamat</td>
                 <td>:</td>
-                <td><?= $transaksi['alamat_makeup']; ?></td>
+                <td><?= $transaksi['alamat makeup']; ?></td>
             </tr>
         </table>
     </div>

@@ -12,7 +12,7 @@
                 <i class="ion ion-ios-paper"></i>
             </div>
             <!-- <div class="small-box-footer"></div> -->
-            <a href="#" class="small-box-footer">Info Lebih Lanjut <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/Admin/reservasi" class="small-box-footer">Info Lebih Lanjut <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -22,12 +22,12 @@
             <div class="inner">
                 <h3><?= $paket[0]['data']; ?></h3>
 
-                <p>Paket MakeUp</p>
+                <p>Paket Alat Musik</p>
             </div>
             <div class="icon">
                 <i class="ion ion-ios-box"></i>
             </div>
-            <a href="/Admin/paketFoto" class="small-box-footer">Info Lebih Lanjut <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/Admin/paketMakeup" class="small-box-footer">Info Lebih Lanjut <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
     <!-- ./col -->
@@ -55,7 +55,7 @@
             <div class="icon">
                 <i class="ion ion-android-cloud-done"></i>
             </div>
-            <a href="#" class="small-box-footer"> <i class="fas fa-arrow-circle-right"></i></a>
+            <a href="/Admin/reservasi" class="small-box-footer"> <i class="fas fa-arrow-circle-right"></i></a>
         </div>
     </div>
 </div>
@@ -97,7 +97,7 @@
                                             <p><b>Informasi Reservasi</b></p>
                                             <table>
                                                 <tr>
-                                                    <td>Tanggal Makeup</td>
+                                                    <td>Tanggal Sewa</td>
                                                     <td>:</td>
                                                     <td><?= date('d F Y', strtotime($values['tanggal_makeup'])); ?></td>
                                                 </tr>

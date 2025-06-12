@@ -55,7 +55,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="/#hero">Home</a></li>
-                <li><a class="nav-link scrollto active" href="/#pricing">Paket MakeUp</a></li>
+                <li><a class="nav-link scrollto active" href="/#pricing">Paket Alat Musik</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

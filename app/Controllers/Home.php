@@ -50,7 +50,7 @@ class Home extends BaseController
     {
 //         ====================== hit Api open wheatermap =========================
         $apiKey = '206891d8d1f76531c0fe6f1702cc8312';
-        $city = 'Payakumbuh';
+        $city = 'Padang';
         $apiUrl = "http://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}";
 
         $client = \Config\Services::curlrequest();

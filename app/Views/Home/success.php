@@ -50,7 +50,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="/#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="/#pricing">Paket MakeUp</a></li>
+                <li><a class="nav-link scrollto" href="/#pricing">Paket Alat Musik</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -84,11 +84,11 @@
                                     <span><b><?= $transaksi['No_HP']; ?></b></span>
                                 </div>
                                 <div class="tanggal-customer flex-between">
-                                    <span>Tanggal MakeUp</span>
+                                    <span>Tanggal Sewa</span>
                                     <span><b><?= date('d F Y', strtotime($transaksi['tanggal_makeup'])); ?></b></span>
                                 </div>
                                 <div class="waktu-customer flex-between">
-                                    <span>Waktu MakeUp</span>
+                                    <span>Waktu Pengembalian</span>
                                     <span><b><?= $transaksi['waktu_makeup']; ?></b></span>
                                 </div>
                                 <div class="alamat-customer flex-between">

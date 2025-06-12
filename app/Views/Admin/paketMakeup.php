@@ -12,7 +12,7 @@
 <div class="row">
     <div class="col-4 mb-4">
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-lg">
-            Tambah Paket Makeup
+            Tambah Paket Alat Musik
         </button>
     </div>
 </div>
@@ -29,7 +29,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Paket Makeup</h3>
+                <h3 class="card-title">Paket Alat Musik</h3>
             </div>
             <!-- ./card-header -->
             <div class="card-body">

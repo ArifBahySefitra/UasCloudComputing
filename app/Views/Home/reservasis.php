@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
-    <title>Reserve E-MUA</title>
+    <title>Shymphony Station Bahy</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -80,7 +80,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="/#hero">Home</a></li>
-                <li><a class="nav-link scrollto active" href="/#pricing">Paket MakeUp</a></li>
+                <li><a class="nav-link scrollto active" href="/#pricing">Paket Alat Musik</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -154,7 +154,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Tanggal Makeup</td>
+                                            <td>Tanggal Sewa</td>
                                             <td>:</td>
                                             <td>
                                                 <input type="date" name="tanggal_makeup" value="<?= date('Y-m-d'); ?>" class="form-control <?= ($validasi->hasError('tanggal_makeup')) ? 'is-invalid' : ''; ?>">
@@ -162,7 +162,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Waktu Makeup</td>
+                                            <td>Waktu Pengembalian</td>
                                             <td>:</td>
                                             <td>
                                                 <select name=" waktu_makeup" id="" class="custom-select <?= ($validasi->hasError('waktu_makeup')) ? 'is-invalid' : ''; ?>">
@@ -173,7 +173,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Lokasi Acara</td>
+                                            <td>Alat yang disewa</td>
                                             <td>:</td>
                                             <td>
                                                 <textarea name="alamat_makeup" id="" cols="30" rows="4" class="form-control <?= ($validasi->hasError('alamat_makeup')) ? 'is-invalid' : ''; ?>"><?= ($validasi->hasError('alamat_makeup')) ? '' : old('alamat_makeup'); ?></textarea>
@@ -181,7 +181,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Harga Paket Makeup</td>
+                                            <td>Harga Paket Alat Musik</td>
                                             <td>:</td>
                                             <td>
                                                 <input type="text" name="harga_paket_makeup" id="harga_paket_makeup" class="form-control <?= ($validasi->hasError('harga_paket_makeup')) ? 'is-invalid' : ''; ?>" value="<?= old('harga_paket_makeup', $paket['harga_paket_makeup']); ?>" readonly>

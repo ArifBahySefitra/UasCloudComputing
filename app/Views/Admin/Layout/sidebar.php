@@ -2,7 +2,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/Admin/index" class="brand-link text-center">
-        <span class="brand-text font-weight-light">E-MUA</span>
+        <span class="brand-text font-weight-light">Shympony Station</span>
     </a>
 
     <!-- Sidebar -->
@@ -40,7 +40,7 @@
                     <a href="/Admin/paketmakeup" class="nav-link">
                         <i class="nav-icon fa fa-person" aria-hidden="true"></i>
                         <p>
-                            Paket MakeUp
+                            Paket Alat Musik
                         </p>
                     </a>
                 </li>

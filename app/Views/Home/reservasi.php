@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     
-    <title>Reserve E-MUA</title>
+    <title>Reserve Shymphony Station</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -55,7 +55,7 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="/#hero">Home</a></li>
-                <li><a class="nav-link scrollto active" href="/#pricing">Paket MakeUp</a></li>
+                <li><a class="nav-link scrollto active" href="/#pricing">Paket Alat Musik</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -121,7 +121,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Tanggal Makeup</td>
+                                            <td>Tanggal Alat Musik</td>
                                             <td>:</td>
                                             <td>
                                                 <input type="date" name="tgl_pemotretan" value="<?= date('Y-m-d'); ?>" class="form-control <?= ($validasi->hasError('tgl_pemotretan')) ? 'is-invalid' : ''; ?>">
@@ -129,7 +129,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Waktu Makeup</td>
+                                            <td>Waktu Sewa</td>
                                             <td>:</td>
                                             <td>
                                                 <select name=" waktu_pemotretan" id="" class="custom-select <?= ($validasi->hasError('waktu_pemotretan')) ? 'is-invalid' : ''; ?>">
@@ -140,7 +140,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Lokasi Acara</td>
+                                            <td>Lokasi</td>
                                             <td>:</td>
                                             <td>
                                                 <textarea name="lokasi_pemotretan" id="" cols="30" rows="10" class="form-control <?= ($validasi->hasError('lokasi_pemotretan')) ? 'is-invalid' : ''; ?>"><?= ($validasi->hasError('lokasi_pemotretan')) ? '' : old('lokasi_pemotretan'); ?></textarea>

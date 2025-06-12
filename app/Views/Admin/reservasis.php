@@ -34,7 +34,8 @@
                             <th>NIK</th>
                             <th>No Telepon</th>
                             <th>Paket Makeup</th>
-                            <th>harga Paket</th>
+                            <th>Harga Paket</th>
+                            <th>Status Booking</th>
                         </tr>
                         </thead>
                         <tbody class="first">
@@ -49,6 +50,7 @@
                                 <td style="vertical-align: middle;"><?= $r['No_HP']; ?></td>
                                 <td style="vertical-align: middle;"><?= $r['nama_paket_makeup']; ?></td>
                                 <td style="vertical-align: middle;"><?= $r['harga_paket_makeup']; ?></td>
+                                <td style="vertical-align: middle;"><?= $r['status_booking']; ?></td>
                             </tr>
                         <?php endforeach; ?>
                         </tbody>
